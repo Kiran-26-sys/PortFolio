@@ -1,51 +1,70 @@
-# 🌐 Kiran Kumar A | Portfolio Website
+# 💼 Kiran Kumar A - Portfolio
 
-This is my personal **portfolio website** showcasing my skills, projects, and contact details. It includes detailed descriptions of major projects in **Web Development** and **Data Science**, along with interactive UI elements and smooth animations.
+This is the personal portfolio website of **Kiran Kumar A**, showcasing my projects, skills, and contact information. Built using HTML, CSS, JavaScript, React, and data visualization tools like Tableau and Python libraries.
 
-![Portfolio Screenshot](assets/preview.png) <!-- Optional: Include a screenshot -->
+---
 
-## 🚀 Live Site
+## 🌐 Live Portfolio
 
 Access the portfolio live at:  
-**[[https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)](https://kiran-26-sys.github.io/PortFolio/)**  
+👉 [https://kiran-26-sys.github.io/PortFolio/](https://kiran-26-sys.github.io/PortFolio/)
 
 ---
 
-## 📂 Project Structure
+## 🚀 Featured Projects
+
+### 1. Smart Bus Scheduler  
+A route optimization tool that uses data to identify hotspot regions and optimize public bus scheduling.  
+**Tech Stack:** Python, Flask, Pandas, NumPy, Folium, SQLite
+
+### 2. AI Financial Advisor  
+Automatically reads bank SMS alerts to categorize expenses, provide financial summaries, and recommend savings.  
+**Tech Stack:** Python, LangChain, OpenAI API, SQLite, Flask
+
+### 3. E-Commerce Sales Analysis  
+Analyzed ABC company’s sales data to provide visual and statistical insights.  
+**Tech Stack:** Python, Pandas, Matplotlib, Seaborn
+
+### 4. COVID-19 Data Dashboard  
+Visualized COVID trends globally and locally using Tableau dashboards.  
+**Tech Stack:** Tableau
+
+### 5. Sports Arena Booking System  
+A web app that enables users to book courts (e.g., badminton) in real-time with Firebase-based backend.  
+**Tech Stack:** React.js, JavaScript, Firebase, HTML, CSS, Python
+
+### 6. Portfolio Website  
+Responsive portfolio website built to showcase my work and resume.  
+**Tech Stack:** HTML, CSS, JavaScript, AOS.js
+
+---
+
+## 📁 Folder Structure
 
 
 ---
 
-## 🧠 Features
+## 📞 Contact
 
-- 🎯 Clean, responsive layout
-- 💡 Smooth animations via [AOS.js](https://michalsnik.github.io/aos/)
-- 📊 Interactive project showcase with description pages
-- 📎 Downloadable resume and project reports
-- 🔗 Social and GitHub profile links
-
----
-
-## 🛠️ Technologies Used
-
-- HTML5, CSS3, JavaScript
-- React.js (for Sports Booking App)
-- Python, Pandas, Matplotlib, Seaborn
-- Tableau
-- Firebase (for authentication & database)
-- AOS.js for on-scroll animations
+📧 Email: appojikirankumar@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/kirankumar)  
+🐙 [GitHub](https://github.com/kiran-26-sys)  
+📷 [Instagram](https://instagram.com/kirankumar)
 
 ---
 
-## 📬 Contact
+## 🛠 Technologies Used
 
-- 📧 Email: [appojikirankumar@gmail.com](mailto:appojikirankumar@gmail.com)
-- 🔗 [LinkedIn](https://www.linkedin.com/in/kirankumar)
-- 💻 [GitHub](https://github.com/kirankumar)
+- HTML5 / CSS3 / JavaScript  
+- React.js  
+- Python / Flask  
+- Firebase  
+- SQLite  
+- Tableau  
+- AOS.js
 
 ---
 
-## 📢 License
+## 📝 License
 
-This project is open-source and available for personal and academic use.
-
+This project is open-source and available under the [MIT License](LICENSE).
