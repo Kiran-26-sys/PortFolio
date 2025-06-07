@@ -6,6 +6,9 @@ This is my personal **portfolio website** showcasing my skills, projects, and co
 
 ## 🚀 Live Site
 
+Access the portfolio live at:  
+**[https://yourusername.github.io/portfolio/](https://yourusername.github.io/portfolio/)**  
+(Replace with your actual link after GitHub Pages deployment)
 
 ---
 
