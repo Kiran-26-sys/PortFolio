@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>COVID-19 Data Analysis | Kiran Kumar A</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Kiran Kumar A</div>
+    <ul class="menu-bar">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="project-details" data-aos="fade-up">
+    <h2>🦠 COVID-19 Data Analysis using Tableau</h2>
+
+    <p>
+      This project involved deep analysis and visualization of COVID-19 data from various global sources using <strong>Tableau</strong>. The goal was to explore infection patterns, recovery trends, and death rates across countries and regions, while making the insights accessible through rich, interactive dashboards.
+    </p>
+
+    <h3>🔍 Significance of COVID-19 Data Analysis</h3>
+    <p>
+      During the pandemic, data became critical to inform governments, healthcare systems, and citizens. Analyzing COVID-19 data helps in:
+    </p>
+    <ul>
+      <li>Tracking and predicting case surges</li>
+      <li>Comparing regional healthcare responses</li>
+      <li>Identifying high-risk areas for better resource allocation</li>
+      <li>Creating awareness through visual storytelling</li>
+    </ul>
+
+    <h3>📊 Why Tableau?</h3>
+    <p>
+      Tableau is one of the most powerful tools for data visualization in data science. In this project, it was used for:
+    </p>
+    <ul>
+      <li><strong>Real-time data visualizations</strong> with filters and drill-down capabilities</li>
+      <li><strong>Interactive dashboards</strong> showing confirmed, recovered, and death counts</li>
+      <li><strong>Geo-maps</strong> to show regional distribution of cases</li>
+      <li><strong>Trend analysis</strong> using time-series charts for monthly and weekly patterns</li>
+      <li><strong>User-friendly interface</strong> for non-technical users to explore insights</li>
+    </ul>
+
+    <h3>✨ Highlights</h3>
+    <ul>
+      <li>Designed multiple dashboards for countries, continents, and timeframes</li>
+      <li>Used calculated fields and parameters to customize filters and KPIs</li>
+      <li>Storyline feature used to present insights in a guided narrative</li>
+    </ul>
+
+    <h3>Technologies Used</h3>
+    <p>Tableau, Excel (for data cleaning), Public COVID Datasets</p>
+
+   <style>
+  /* Container for the button and popup */
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* The main button */
+  .dropdown-btn {
+    background: #4e79a7;
+    color: #fff;
+    padding: 0.7rem 1.4rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  /* The popup/dropdown menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    z-index: 1;
+    margin-top: 0.5rem;
+  }
+
+  /* Each link inside popup */
+  .dropdown-content a {
+    color: #4e79a7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+  }
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
+
+  /* Hover effect on links */
+  .dropdown-content a:hover {
+    background-color: #e0e7f1;
+  }
+</style>
+
+<div class="dropdown-container">
+  <button class="dropdown-btn" onclick="toggleDropdown()">View Tableau Dashboard ▼</button>
+  <div id="dropdown-menu" class="dropdown-content">
+    <a href="assetd/TableauProjectPart-1.pptx" target="_blank" rel="noopener">Tableau Project Part 1</a>
+    <a href="assetd/TableauProjectPart-2.pptx" target="_blank" rel="noopener">Tableau Project Part 2</a>
+    <a href="assetd/tableau_report.pdf" target="_blank" rel="noopener">Tableau Report</a>
+  </div>
+</div>
+
+<script>
+  function toggleDropdown() {
+    const menu = document.getElementById('dropdown-menu');
+    if (menu.style.display === 'block') {
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'block';
+    }
+  }
+
+  // Optional: close dropdown when clicking outside
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-btn')) {
+      const dropdowns = document.getElementsByClassName('dropdown-content');
+      for (let i = 0; i < dropdowns.length; i++) {
+        const openDropdown = dropdowns[i];
+        if (openDropdown.style.display === 'block') {
+          openDropdown.style.display = 'none';
+        }
+      }
+    }
+  }
+</script>
+
+  </section>
+
+  <footer style="text-align:center; padding:1rem; margin-top:3rem; background:#f1f1f1;">
+    <p>&copy; 2025 Kiran Kumar A. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+</body>
+</html>
