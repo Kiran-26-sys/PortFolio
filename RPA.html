@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Projects - Kiran Kumar A</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9fafb;
+      margin: 20px;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      color: #0073e6;
+      margin-bottom: 40px;
+    }
+    .projects-container {
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 30px;
+    }
+    @media(min-width: 700px) {
+      .projects-container {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: box-shadow 0.3s ease;
+    }
+    .project-card:hover {
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+    .project-title {
+      color: #004a99;
+      margin-bottom: 12px;
+      font-size: 1.5em;
+    }
+    .project-summary {
+      flex-grow: 1;
+      font-size: 1em;
+      margin-bottom: 20px;
+      line-height: 1.5;
+      color: #444;
+    }
+    .tech-stack {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .project-links {
+      margin-top: auto;
+    }
+    .project-links a {
+      display: inline-block;
+      background-color: #0073e6;
+      color: #fff;
+      text-decoration: none;
+      padding: 8px 15px;
+      border-radius: 6px;
+      margin-right: 10px;
+      font-weight: 600;
+      transition: background-color 0.25s ease;
+    }
+    .project-links a:hover {
+      background-color: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <h1>Featured Projects</h1>
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h2 class="project-title">Sports Arena Booking System</h2>
+      <p class="project-summary">
+        Full-stack web application simplifying badminton court bookings with user authentication, admin control panel, payment integration, and manual testing for quality assurance.
+      </p>
+      <p class="tech-stack"><strong>Technologies:</strong> React.js, JavaScript, HTML, CSS, Firebase, Python, MongoDB</p>
+      <div class="project-links">
+        <a href="https://github.com/Kiran-26-sys/SportsArenaBookingSystem" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://kiran-26-sys.github.io/PortFolio/SportsArenaBookingSystem" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <h2 class="project-title">Smart Attendance Automation Bot</h2>
+      <p class="project-summary">
+        Developed an Automation Anywhere bot to streamline attendance by processing Excel data, automating task scheduling and email reports, dramatically reducing manual effort.
+      </p>
+      <p class="tech-stack"><strong>Technologies:</strong> Automation Anywhere, Excel, Email Automation, Task Scheduling</p>
+      <div class="project-links">
+        <a href="https://github.com/Kiran-26-sys/SmartAttendanceAutomationBot" target="_blank" rel="noopener">GitHub</a>
+        <!-- Replace or remove below link if no demo available -->
+        <a href="#" target="_blank" rel="noopener" style="pointer-events:none; opacity:0.5;">Demo Video</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <h2 class="project-title">E-Commerce Sales Analysis</h2>
+      <p class="project-summary">
+        Performed insightful sales data analysis across regions and platforms using Kaggle datasets, with visualization and interpretation to support data-driven decisions.
+      </p>
+      <p class="tech-stack"><strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook</p>
+      <div class="project-links">
+        <a href="https://github.com/Kiran-26-sys/Ecommerce-Sales-Analysis" target="_blank" rel="noopener">GitHub Notebook</a>
+      </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project-card">
+      <h2 class="project-title">Interactive COVID-19 Trends Dashboard</h2>
+      <p class="project-summary">
+        Created an interactive Tableau dashboard visualizing global COVID-19 trends, case progressions, and regional spread to aid public health comprehension.
+      </p>
+      <p class="tech-stack"><strong>Technologies:</strong> Tableau, Kaggle</p>
+      <div class="project-links">
+        <a href="https://public.tableau.com/app/profile/kiran.kumar/viz/COVID19TrendsDashboard" target="_blank" rel="noopener">View Dashboard</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
