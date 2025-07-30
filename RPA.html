@@ -1,27 +1,199 @@
-<section class="project-details" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
-  <h2>Automation Bot for Attendance Management</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Automation Bot | Kiran Kumar A</title>
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fafafa;
+      color: #333;
+      line-height: 1.6;
+      margin: 0; padding: 0;
+    }
+
+    .navbar {
+      background: #007b8f;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+      cursor: default;
+    }
+
+    .menu-bar {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .menu-bar li a {
+      color: #e0f7fa;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    .menu-bar li a:hover {
+      color: #00adb5;
+      text-decoration: underline;
+    }
+
+    .project-details {
+      max-width: 800px;
+      margin: 3rem auto 5rem auto;
+      padding: 2rem;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+      transition: box-shadow 0.3s ease;
+    }
+
+    .project-details:hover {
+      box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+    }
+
+    .project-details h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #007b8f;
+    }
+
+    .project-details p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    .project-details h3 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #004d59;
+      font-weight: 700;
+    }
+
+    .project-details ul {
+      margin-left: 1.5rem;
+      list-style: inside disc;
+      color: #444;
+      font-size: 1rem;
+    }
+
+    .project-details ul li {
+      margin-bottom: 0.8rem;
+      transition: color 0.3s ease;
+      cursor: default;
+    }
+
+    .project-details ul li:hover {
+      color: #007b8f;
+      font-weight: 600;
+    }
+
+    .project-details a {
+      display: inline-block;
+      margin-top: 2rem;
+      background: #00adb5;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 6px 15px rgba(0,173,181,0.4);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .project-details a:hover {
+      background: #007b8f;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(0,120,130,0.6);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+      background: #f8f8f8;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar" data-aos="fade-down" data-aos-duration="1000">
+    <div class="logo">Kiran Kumar A</div>
+    <ul class="menu-bar">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#professional-engagement">Activities</a></li> 
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="project-details" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out">
+  <h2>Attendance Automation Bot using Automation Anywhere Software</h2>
   <p>
-    A powerful RPA-based solution that automates the collection, analysis, and reporting of attendance data from Excel files using Automation Anywhere. It saves time and eliminates manual errors in repetitive attendance tracking.
+    This bot automates the complete attendance processing pipeline using Automation Anywhere. It reads raw Excel sheets submitted by employees, formats the data, calculates absences and working hours, generates summaries, and emails reports—all without manual intervention.
   </p>
 
   <h3>Problem It Solves</h3>
   <p>
-    Manual attendance tracking from Excel sheets is time-consuming and error-prone. This bot ensures fast, reliable, and automated attendance processing, reducing administrative burden.
+    Manual attendance tracking is time-consuming and error-prone. This bot eliminates the need for manual data handling, reducing errors and increasing HR productivity.
   </p>
 
   <h3>Features</h3>
   <ul>
-    <li>Reads Excel files from a specific folder automatically</li>
-    <li>Validates and processes daily attendance data</li>
-    <li>Generates weekly summary reports for managers</li>
-    <li>Emails the final attendance report to concerned staff</li>
+    <li>Reads attendance Excel files from a predefined folder</li>
+    <li>Extracts and validates date-wise in/out entries for each employee</li>
+    <li>Calculates total working hours and flags absences/irregularities</li>
+    <li>Generates weekly summary Excel reports</li>
+    <li>Auto-sends reports via email to concerned managers</li>
   </ul>
 
   <h3>Technologies Used</h3>
-  <p>Automation Anywhere, Excel, Email Automation, File Handling</p>
+  <p>Automation Anywhere, Excel Automation, Email Automation, Bots Insight Dashboard</p>
 
   <h3>GitHub Link</h3>
   <a href="https://github.com/Kiran-26-sys/automation-attendance-bot" target="_blank" rel="noopener noreferrer">
     View Project on GitHub
   </a>
 </section>
+
+
+<!--   <footer data-aos="fade-up" data-aos-duration="800">
+    <p>&copy; 2025 Kiran Kumar A. All rights reserved.</p>
+  </footer> -->
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+      duration: 800,
+    });
+  </script>
+
+</body>
+</html>
