@@ -1,153 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kiran Kumar A | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <style>
+  .fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+</head>
 <body>
+  <script>AOS.init({ once: true, duration: 900, easing: 'ease-in-out' });</script>
 
-<!-- NAVBAR -->
-<nav>
-  ...
-</nav>
-
-<!-- HERO -->
-<section id="home">
-  ...
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  ...
-</section>
-
-<!-- EDUCATION -->
-<section id="education">
-  ...
-</section>
-
-<!-- INTERNSHIPS -->
-<section id="internships">
-  <h2>Internships</h2>
-
-  <div class="card">
-    <h3>SAP Integration Suite Intern</h3>
-    <p>
-      Worked with SAP API Management and SAP Integration Suite services,
-      developing API proxies, applying policies, and exploring enterprise
-      integration solutions.
-    </p>
-  </div>
-
-  <div class="card">
-    <h3>Mind Matrix - Mobile Application Development Intern</h3>
-    <p>
-      Contributed to the development of Namma-Vastra, an Android application
-      supporting traditional weavers through digital market connectivity and
-      trend analysis.
-    </p>
-  </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="project-card">
-    <h3>Sports Arena Booking System</h3>
-    <p>
-      Full-stack web application for court booking with authentication,
-      scheduling and payment features.
-    </p>
-    <a href="YOUR_GITHUB_LINK">GitHub</a>
-  </div>
-
-  <div class="project-card">
-    <h3>Smart Attendance Automation Bot</h3>
-    <p>
-      Automated attendance tracking and report generation using Automation
-      Anywhere.
-    </p>
-    <a href="YOUR_GITHUB_LINK">GitHub</a>
-  </div>
-
-  <div class="project-card">
-    <h3>E-Commerce Sales Analysis</h3>
-    <p>
-      Performed exploratory data analysis on sales data and built visual
-      insights using Python.
-    </p>
-    <a href="YOUR_GITHUB_LINK">GitHub</a>
-  </div>
-
-  <div class="project-card">
-    <h3>Interactive COVID-19 Dashboard</h3>
-    <p>
-      Built Tableau dashboards to analyze global COVID-19 trends and
-      vaccination statistics.
-    </p>
-    <a href="YOUR_GITHUB_LINK">GitHub</a>
-  </div>
-
-  <div class="project-card">
-    <h3>Namma-Vastra</h3>
-    <p>
-      Android application designed to empower Ilkal and Molakalmuru weavers
-      through digital market access.
-    </p>
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section id="skills">
-  <h2>Technical Skills</h2>
-
-  <ul>
-    <li>DSA, Problem Solving, Aptitude & Logical Reasoning</li>
-    <li>C, Python, Java, C++</li>
-    <li>HTML, CSS, JavaScript, SQL, React.js, Flask</li>
-    <li>NumPy, Pandas, Matplotlib, Tableau</li>
-    <li>STLC, Test Case Design, Bug Life Cycle</li>
-    <li>Git, GitHub, Automation Anywhere</li>
-  </ul>
-</section>
-
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <h2>Certifications</h2>
-
-  <div class="card">
-    <h3>IBM Certifications</h3>
-    <ul>
-      <li>Machine Learning with Python</li>
-      <li>Data Science Foundations</li>
+  <nav class="navbar">
+    <div class="logo">Kiran Kumar A</div>
+    <ul class="menu-bar">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#professional-engagement">Professional Activities</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="sec1" id="home">
+    <div class="sec-1-1" data-aos="fade-right">
+      <img src="assetd/assets/profile.jpg" alt="Profile Picture" class="profile-pic" />
+    </div>
+    <div class="sec-1-2" data-aos="fade-left">
+      <span>Hello, I'm</span>
+      <h1>Kiran Kumar A</h1>
+      <span>FrontendDeveloper</span>
+      <p>I code the front, wire the back, and make it all run beautifully.</p>
+      <div class="buttons">
+        <a href="https://www.linkedin.com" target="_blank"><button>LinkedIn</button></a>
+        <a href="assetd/Kiran_1NH22CD051_Resume.pdf" download><button>Download CV</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about" data-aos="fade-up">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+
+      <p>Hello! I'm <strong>Kiran Kumar A</strong>, A passionate Front-End Developer with a strong background in building scalable web applications and creating intuitive user interfaces. I thrive on solving complex problems with elegant code and have a keen interest in learning new technologies.
+
+<h1>Education</h1>
+  <p><b>Bachelor of Technology in Computer Science and Engineering</b></p>
+  <p>New Horizon College of Engineering with specialization in Data Science.</p>
+<!--   <h1>Technical Skills</h1>
+  <p><b>Programming Languages:</b> C, Python, Java</p>
+  <p><b>Web Technologies:</b> HTML, CSS</p>
+  <p><b>Concepts:</b> Object-Oriented Programming (OOP), Data Structures and Algorithms (DSA)</p>
+  <h1>Career Objective</h1>
+  <p>Eager to pursue a career as a Software Engineer, leveraging my skills in front-end development and my commitment to continuous learning in the field of software engineering.</p>ommitment to continuous learning in the field of software engineering.<br>
+ -->
+</p>
+
+<!--       <p>Hello! I'm <strong>Kiran Kumar A</strong>, Ambitious final-year Computer Science student specializing in Data Science, with hands-on experience in web development, automation, testing, and a strong foundation in technical and analytical problem-solving..</p>
+
+    </div> -->
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>🚀 My Projects</h2>
+    <div class="project-list">
+      <div class="project-card" data-aos="flip-left">
+        <h3>Smart Attendance Automation Bot</h3>
+        <p>Automated and simplified attendance tracking, saving manual effort and increasing reporting accuracy.</p>
+        <a href="RPA.html" target="_blank">Explore ➜</a>
+      </div>
+
+      <div class="project-card" data-aos="fade-up">
+        <h3>AI Financial Advisor</h3>
+        <p>Reads SMS, suggests budgets, and helps manage savings smartly.</p>
+        <a href="ai-advisor.html" target="_blank">Explore ➜</a>
+      </div>
+   <div class="project-card" data-aos="zoom-in-up">
+        <h3>Sports Arena Booking System</h3>
+        <p>Web application for booking sports  with admin and payment module.</p>
+        <a href="sportBooking.html" target="_blank">Explore ➜</a>
+      </div>
+      <div class="project-card" data-aos="zoom-in-up">
+        <h3>E-Commerce Sales Analysis</h3>
+        <p>Analyzed regional and platform sales trends using Python and visualization tools.</p>
+        <a href="ecommerce.html" target="_blank">Explore ➜</a>
+      </div>
+
+      <div class="project-card" data-aos="zoom-in-up">
+        <h3>Interactive COVID Data Visualization</h3>
+        <p>User-Centric Tableau dashboards visualizing COVID-19 data globally and regionally.</p>
+        <a href="tableau.html" target="_blank">Explore ➜</a>
+      </div>
+
+      
+
+      <!-- <div class="project-card" data-aos="zoom-in-up">
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio to showcase skills and work.</p>
+        <a href="index.html" target="_blank">Explore ➜</a>
+      </div> -->
+    </div>
+  </section>
+
+  
+
+
+  <!-- Professional Engagement Section -->
+<!-- Professional Engagement Section -->
+<section class="professional-engagement" id="professional-engagement" data-aos="zoom-in-up">
+  <h1 style="text-align:center; color:#0073e6; margin-bottom: 35px;">Professional Engagement</h1>
+  <div style="max-width:900px; margin:auto; display:grid; grid-template-columns:1fr; gap:25px;">
+    <!-- Smart India Hackathon -->
+    <div class="fade-up" style="background:white; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); padding:22px;">
+      <h2 style="color:#004a99; margin-bottom:10px;">Smart India Hackathon – Participant (Round 1)</h2>
+      <p style="color:#444;">
+        Participated in a national-level hackathon, conducting in-depth research and developing practical solutions to assigned real-world problem statements. Enhanced teamwork and real-world problem-solving capabilities in a competitive setting.
+      </p>
+      <a href="assetd/SIH_2024.pptx" target="_blank">Explore ➜</a>
+    </div>
+
+    <!-- Publications / Research Work -->
+    <div class="fade-up" style="background:white; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); padding:22px;">
+      <h2 style="color:#004a99; margin-bottom:10px;">Publications / Research Work</h2>
+      <p style="color:#444;">
+       <b> Artificial Intelligence in Business: Transformative Applications, Ethical Dilemmas and Future Trajectories</b><br>
+        <b>7th National Conference on Innovations in Intelligent Computing Technologies, Communication and Security for Sustainable Development (NCIICCSSD 2025) – IEEE Conference | April 2025 | Paper ID: 8</b><br>
+        Presented a review paper exploring the evolving impact of AI in business, addressing real-world applications, ethical implications, and future directions. Gained experience in academic writing, peer review standards, and formal technical presentation.
+      </p>
+    </div>
+
+    <!-- Startup Idea Innovation Program -->
+    <div class="fade-up" style="background:white; border-radius:10px; box-shadow:0 4px 15px rgba(0,0,0,0.1); padding:22px;">
+      <h2 style="color:#004a99; margin-bottom:10px;">Startup Idea Innovation Program – Participant</h2>
+      <p style="color:#444;">
+        Explored the end-to-end structure of startups including ideation, funding, operations, and business models. Developed entrepreneurial thinking and strategic planning skills through practical exposure.
+      </p>
+    </div>
   </div>
 </section>
 
-<!-- ACHIEVEMENTS -->
-<section id="achievements">
-  <h2>Achievements</h2>
 
-  <ul>
-    <li>Presented research paper at IEEE NCIICCSSD 2025 Conference.</li>
-    <li>Smart India Hackathon Participant.</li>
-    <li>CGPA: 9.27 (B.E. CSE - Data Science).</li>
-  </ul>
-</section>
 
-<!-- PUBLICATION -->
-<section id="publication">
-  <h2>Research Publication</h2>
 
-  <h3>
-    Artificial Intelligence in Business: Transformative Applications,
-    Ethical Dilemmas and Future Trajectories
-  </h3>
 
-  <p>
-    Presented at IEEE NCIICCSSD 2025. Explored AI applications,
-    ethical challenges, and future directions in business.
-  </p>
-</section>
+<!-- Contact Section -->
+  <section class="contact-section" id="contact" data-aos="fade-up">
+    <h2 class="section-title">📬 Contact Me</h2>
+    <div class="contact-card" data-aos="zoom-in">
+      <p><strong>Email:</strong> <a href="mailto:appojikirankumar@gmail.com">appojikirankumar@gmail.com</a></p>
+       <p><strong>Phone:</strong> <a href="tel:+917090818138">+91 7090818138</a></p>
+      <p><strong>Connect with me:</strong></p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/kiran-kumar-datascience/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Kiran-26-sys" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/kiran_kumar7924?igsh=Ynp0b3ExNHZhZTlm" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
 
-<!-- CONTACT -->
-<section id="contact">
-  ...
-</section>
+
+  <script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target); // Optional: animate once
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
 
 </body>
+</html>
